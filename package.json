@@ -1,0 +1,20 @@
+{
+  "name": "UserRegistration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../UserRegistration/src/index.js",
+  "scripts": {
+    "start": "nodemon run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
